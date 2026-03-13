@@ -121,9 +121,13 @@ footer {
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 1024px) {
   .column {
     width: 50%;
   }
 }
 }
+=======
+}
+>>>>>>> 8e456097415529374181bd93817ff1ec90c6314e
