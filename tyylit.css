@@ -1,0 +1,121 @@
+/*
+näiden väliin muistiinpanoja!
+*/
+
+html, body {
+     margin: 0px;
+     padding: 0px;
+  
+.h1 {
+    color: #000600;
+    font-style: normal;
+    font-family: Candara;
+    font-size: 20px;
+    text-align: left;
+    line-height:2;
+
+    background: #74BD91; 
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+
+  img {
+    position:relative;
+    left: 30px;
+    bottom: 30px;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+}
+
+nav {
+  ul {
+    background-color: #74BD91;
+    padding: 0px;
+    margin: 0px;
+    position: static;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+    ul li a {
+      display: block;
+      color: #74BD91;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      float: left;
+    }
+
+    ul li a:hover {
+      color: #235789;
+      float: left;
+    }
+
+    ul li a.active {
+      background-color: #235789;
+      color: black;
+      float: left;
+  }
+
+    a:link {
+      color: #000000;
+      font-family: Candara;
+      font-size: 14px;
+      background-color: transparent;
+      text-decoration: none;
+      float: left;
+    }
+  }
+
+.section {
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  h2 {
+    color: #000600;
+    font-style: normal;
+    font-family: Candara;
+    font-size: 20px;
+    text-align: left;
+    padding: 0px;
+  }
+}
+
+footer {
+    color:#000000;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+
+    background: #74BD91; 
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+}
