@@ -82,7 +82,6 @@ section {
   margin: 10px ;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
-  background-color: aqua;
 
   h2 {
     color: #000600;
@@ -108,26 +107,4 @@ footer {
     margin: 0px;
     padding: 10px;
 }
-
-@media screen and (max-width: 767px) {
-  section {
-    width: 100%;
-  }
 }
-
-@media screen and (max-width: 768px) and (max-width: 1023px) {
-  .column {
-    width: 50%;
-  }
-}
-
-<<<<<<< HEAD
-@media screen and (min-width: 1024px) {
-  .column {
-    width: 50%;
-  }
-}
-}
-=======
-}
->>>>>>> 8e456097415529374181bd93817ff1ec90c6314e
